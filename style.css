@@ -1,6 +1,7 @@
 .navbar {
     background-color: silver;
     border-style: ridge;
+    border-radius: 15px;
 }
 .navbar-brand {
     border-radius: 25px;
@@ -18,9 +19,22 @@ h1 {
     font-size: 90px;
     text-align: center;
 }
+
 .card {
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
     background-color: slategrey;
+}
+.form-group {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper {
+    text-align: center;
+}
+.button {
+    position: absolute;
+    top: 65%;
 }
